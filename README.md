@@ -1,14 +1,24 @@
 # README
 
-An English layout using default bigrams and default fast filter and config.
+Better English keyboard layouts 
+generated using [kilo](https://www.tghaleb.eu.org/kilo).
 
-You need to make. This will generate images + xkb config + typing
-lessons. Note that you need to have the corpus present to generate the
-typing lessons.
+[![GitHub release](https://img.shields.io/github/release/tghaleb/kilo-layouts-en.svg)](https://github.com/tghaleb/kilo-layouts-en/releases)
 
-# TODO
+![kilo51 heat](docs/images/kilo51.heat.svg)
+![kilo45 heat](docs/images/kilo45.heat.svg)
 
-fix caps
-dead keys and other groups.
-finish level3/4 on groups?
+## Documentation
+
+<https://tghaleb.eu.org/kilo-layouts-en>
+
+## TODO
+
+- dead keys.
+- finish level3/4.
+
+## Contributors
+
+- [Tarek Ghaleb](https://github.com/tghaleb) - creator and maintainer
+
 

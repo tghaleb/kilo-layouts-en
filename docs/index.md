@@ -103,8 +103,8 @@ Letter placement for QWERTY (positional effort)
 
 Better placement,
 
-![qwerty heat](images/kilo51.heat.svg)
-![qwerty heat](images/kilo45.heat.svg)
+![kilo51 heat](images/kilo51.heat.svg)
+![kilo45 heat](images/kilo45.heat.svg)
 
 And here is the positional effort compared
 

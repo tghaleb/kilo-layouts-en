@@ -7,14 +7,10 @@ jobs:
     steps:
       - name: Download source
         uses: actions/checkout@v2
-      - name: Install Crystal
-        uses: oprypin/install-crystal@v1
       - name: Install Python
         uses: actions/setup-python@v2
       - name: Install Python libs
         run: pip install --no-deps -r requirements.txt
-      - name: Install Crystal libs
-        run: shards install
       - name: Build site
         run: mkdocs build
       - name: Deploy to gh-pages
