@@ -1,0 +1,203 @@
+---
+name: kilo45
+group: "English (kilo45)"
+map:
+  tlde: ["€"]
+  ae01: ["1"]
+  ae02: ["2"]
+  ae03: ["3"]
+  ae04: ["4"]
+  ae05: ["5"]
+  ae06: ["6"]
+  ae07: ["7"]
+  ae08: ["8"]
+  ae09: ["9"]
+  ae10: ["0"]
+  ae11: ["="]
+  ae12: ["~"]
+  bksp:
+  - BackSpace
+  tab:
+  - Tab
+  ad01:
+  - w
+  - W
+  ad02:
+  - q
+  - Q
+  ad03:
+  - d
+  - D
+  ad04:
+  - c
+  - C
+  ad05:
+  - g
+  - G
+  ad06:
+  - j
+  - J
+  ad07:
+  - y
+  - Y
+  ad08:
+  - u
+  - U
+  ad09:
+  - z
+  - Z
+  ad10:
+  - ','
+  ad11:
+  - ''''
+  ad12:
+  - "*"
+  caps:
+  - "@"
+  ac01:
+  - r
+  - R
+  ac02:
+  - n
+  - N
+  ac03:
+  - t
+  - T
+  ac04:
+  - s
+  - S
+  ac05:
+  - l
+  - L
+  ac06:
+  - h
+  - H
+  ac07:
+  - a
+  - A
+  ac08:
+  - e
+  - E
+  ac09:
+  - o
+  - O
+  ac10:
+  - i
+  - I
+  ac11:
+  - .
+  bksl:
+  - "%"
+  rtrn:
+  - Return
+  lfsh:
+  - ISO_Level3_Shift 
+  ab01:
+  - x
+  - X
+  ab02:
+  - b
+  - B
+  ab03:
+  - p
+  - P
+  ab04:
+  - m
+  - M
+  ab05:
+  - v
+  - V
+  ab06:
+  - f
+  - F
+  ab07:
+  - k
+  - K
+  ab08:
+  - /
+  ab09:
+  - ;
+  ab10:
+  - '-'
+  rtsh:
+  - ISO_Level3_Shift 
+  lctl:
+  - Ctrl_L
+  lwin:
+  - Alt_L
+  lalt:
+  - Shift_L
+  spce:
+  - Space
+  rctl:
+  - Ctrl_R
+  rwin:
+  - Alt_R
+  comp:
+  - Multi_key
+  ralt:
+  - Shift_L
+  none: []
+heat:
+  tlde: 0
+  ae01: 0
+  ae02: 0
+  ae03: 0
+  ae04: 0
+  ae05: 0
+  ae06: 0
+  ae07: 0
+  ae08: 0
+  ae09: 0
+  ae10: 0
+  ae11: 0
+  ae12: 0
+  bksp: 0
+  tab: 0
+  ad01: 148
+  ad02: 10
+  ad03: 361
+  ad04: 325
+  ad05: 191
+  ad06: 11
+  ad07: 168
+  ad08: 278
+  ad09: 9
+  ad10: 104
+  ad11: 22
+  ad12: 0
+  caps: 0
+  ac01: 637
+  ac02: 721
+  ac03: 878
+  ac04: 648
+  ac05: 408
+  ac06: 431
+  ac07: 792
+  ac08: 1218
+  ac09: 769
+  ac10: 738
+  ac11: 116
+  bksl: 0
+  rtrn: 0
+  lfsh: 0
+  ab01: 21
+  ab02: 129
+  ab03: 209
+  ab04: 237
+  ab05: 109
+  ab06: 209
+  ab07: 59
+  ab08: 1
+  ab09: 2
+  ab10: 23
+  rtsh: 0
+  lctl: 0
+  lwin: 0
+  lalt: 0
+  spce: 0
+  ralt: 0
+  rwin: 0
+  comp: 0
+  rctl: 0
+  none: 0

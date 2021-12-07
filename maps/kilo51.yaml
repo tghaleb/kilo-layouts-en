@@ -1,0 +1,206 @@
+---
+name: kilo51
+group: ""
+map:
+  tlde: ["€","£"]
+  ae01: ["1","<"]
+  ae02: ["2", "{"]
+  ae03: ["3", "["]
+  ae04: ["4", "("]
+  ae05: ["5", "&"]
+  ae06: ["6", "|"]
+  ae07: ["7", ")"]
+  ae08: ["8", "]"]
+  ae09: ["9", "}"]
+  ae10: ["0", ">"]
+  ae11: ["=", "+"]
+  ae12: ["~", "\\"]
+  bksp:
+  - BackSpace
+  tab:
+  - Tab
+  ad01:
+  - w
+  - W
+  ad02:
+  - v
+  - V
+  ad03:
+  - c
+  - C
+  ad04:
+  - d
+  - D
+  ad05:
+  - g
+  - G
+  ad06:
+  - j
+  - J
+  ad07:
+  - y
+  - Y
+  ad08:
+  - u
+  - U
+  ad09:
+  - q
+  - Q
+  ad10:
+  - .
+  ad11:
+  - ''''
+  ad12:
+  - "*"
+  - "#"
+  caps:
+  - "@"
+  - "$"
+  ac01:
+  - r
+  - R
+  ac02:
+  - n
+  - N
+  ac03:
+  - s
+  - S
+  ac04:
+  - t
+  - T
+  ac05:
+  - l
+  - L
+  ac06:
+  - h
+  - H
+  ac07:
+  - e
+  - E
+  ac08:
+  - a
+  - A
+  ac09:
+  - o
+  - O
+  ac10:
+  - i
+  - I
+  ac11:
+  - ','
+  bksl:
+  - "%"
+  - "^"
+  rtrn:
+  - Return
+  lfsh:
+  - ISO_Level3_Shift 
+  ab01:
+  - z
+  - Z
+  ab02:
+  - x
+  - X
+  ab03:
+  - m
+  - M
+  ab04:
+  - p
+  - P
+  ab05:
+  - b
+  - B
+  ab06:
+  - f
+  - F
+  ab07:
+  - '-'
+  ab08:
+  - k
+  - K
+  ab09:
+  - /
+  ab10:
+  - ;
+  rtsh:
+  - ISO_Level3_Shift 
+  lctl:
+  - Ctrl_L
+  lwin:
+  - Alt_L
+  lalt:
+  - Shift_L
+  spce:
+  - Space
+  rctl:
+  - Ctrl_R
+  rwin:
+  - Alt_R
+  comp:
+  - Multi_key
+  ralt:
+  - Shift_L
+  none: []
+heat:
+  tlde: 0
+  ae01: 0
+  ae02: 0
+  ae03: 0
+  ae04: 0
+  ae05: 0
+  ae06: 0
+  ae07: 0
+  ae08: 0
+  ae09: 0
+  ae10: 0
+  ae11: 0
+  ae12: 0
+  bksp: 0
+  tab: 0
+  ad01: 148
+  ad02: 109
+  ad03: 325
+  ad04: 361
+  ad05: 191
+  ad06: 11
+  ad07: 168
+  ad08: 278
+  ad09: 10
+  ad10: 116
+  ad11: 22
+  ad12: 0
+  caps: 0
+  ac01: 637
+  ac02: 721
+  ac03: 648
+  ac04: 878
+  ac05: 408
+  ac06: 431
+  ac07: 1218
+  ac08: 792
+  ac09: 769
+  ac10: 738
+  ac11: 104
+  bksl: 0
+  rtrn: 0
+  lfsh: 0
+  ab01: 9
+  ab02: 21
+  ab03: 237
+  ab04: 209
+  ab05: 129
+  ab06: 209
+  ab07: 23
+  ab08: 59
+  ab09: 1
+  ab10: 2
+  rtsh: 0
+  lctl: 0
+  lwin: 0
+  lalt: 0
+  spce: 0
+  ralt: 0
+  rwin: 0
+  comp: 0
+  rctl: 0
+  none: 0

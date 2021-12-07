@@ -1,0 +1,17 @@
+site_name: Kilo-layouts-en
+
+theme:
+  name: windmill
+  highlightjs: true
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: crystal
+
+markdown_extensions:
+  - pymdownx.highlight
+  - deduplicate-toc
+
+nav:
+  - Home: index.md
