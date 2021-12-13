@@ -35,7 +35,7 @@ and Scientific/International:
 ![kilo68](images/kilo68s.svg)
 
 The international part of it is by using the compose key and the
-level3/level4 keys are still a work in progress.
+level3/level4 keys and are still a work in progress.
 
 Here are some stats.
 
@@ -267,8 +267,12 @@ shift keys.
 
 ## Installation
 
+
 This assumes you are using `Linux`. If you plan on customizing you'll need to install
 [kilo](https://www.tghaleb.eu.org/kilo) and read it's documentation.
+
+Get it from [repository](https://github.com/tghaleb/kilo-layouts-en),
+unpack into a directory and,
 
 ```console
 make
@@ -283,7 +287,4 @@ etc. See keyboard layouts customization documentation for your distro.
 
 On other operating systems there should be tools
 to help you create customized layouts.
-
-
-
 
