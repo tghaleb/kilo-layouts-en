@@ -1,6 +1,6 @@
 ---
-name: kilo51
-group: "English (kilo51)"
+name: kilo68s
+group: "English (kilo68s)"
 map:
   tlde: ["€"]
   ae01: ["1"]
@@ -20,53 +20,74 @@ map:
   tab:
   - Tab
   ad01:
-  - w
+  - x
+  - X
   ad02:
-  - v
+  - z
+  - Z
   ad03:
-  - c
+  - o
+  - O
   ad04:
-  - d
+  - i
+  - I
   ad05:
-  - g
+  - '-'
   ad06:
-  - j
+  - w
+  - W
   ad07:
-  - y
+  - n
+  - N
   ad08:
-  - u
+  - c
+  - C
   ad09:
-  - q
+  - g
+  - G
   ad10:
-  - .
+  - v
+  - V
   ad11:
-  - ''''
+  - k
+  - K
   ad12:
   - "*"
   caps:
   - "@"
   ac01:
-  - r
+  - y
+  - Y
   ac02:
-  - n
-  ac03:
-  - s
-  ac04:
-  - t
-  ac05:
-  - l
-  ac06:
   - h
-  ac07:
+  - H
+  ac03:
   - e
-  ac08:
+  - E
+  ac04:
   - a
+  - A
+  ac05:
+  - u
+  - U
+  ac06:
+  - l
+  - L
+  ac07:
+  - r
+  - R
+  ac08:
+  - s
+  - S
   ac09:
-  - o
+  - d
+  - D
   ac10:
-  - i
+  - t
+  - T
   ac11:
-  - ','
+  - m
+  - M
   bksl:
   - "%"
   rtrn:
@@ -74,25 +95,30 @@ map:
   lfsh:
   - ISO_Level3_Shift 
   ab01:
-  - z
+  - q
+  - Q
   ab02:
-  - x
-  ab03:
-  - m
-  ab04:
-  - p
-  ab05:
-  - b
-  ab06:
-  - f
-  ab07:
-  - '-'
-  ab08:
-  - k
-  ab09:
   - /
-  ab10:
+  ab03:
   - ;
+  ab04:
+  - .
+  ab05:
+  - ''''
+  ab06:
+  - ','
+  ab07:
+  - f
+  - F
+  ab08:
+  - p
+  - P
+  ab09:
+  - b
+  - B
+  ab10:
+  - j
+  - J
   rtsh:
   - ISO_Level3_Shift 
   lctl:
@@ -128,43 +154,43 @@ heat:
   ae12: 0
   bksp: 0
   tab: 0
-  ad01: 148
-  ad02: 109
-  ad03: 325
-  ad04: 361
-  ad05: 191
-  ad06: 11
-  ad07: 168
-  ad08: 278
-  ad09: 10
-  ad10: 116
-  ad11: 22
+  ad01: 21
+  ad02: 9
+  ad03: 769
+  ad04: 738
+  ad05: 23
+  ad06: 148
+  ad07: 721
+  ad08: 325
+  ad09: 191
+  ad10: 109
+  ad11: 59
   ad12: 0
   caps: 0
-  ac01: 637
-  ac02: 721
-  ac03: 648
-  ac04: 878
-  ac05: 408
-  ac06: 431
-  ac07: 1218
-  ac08: 792
-  ac09: 769
-  ac10: 738
-  ac11: 104
+  ac01: 168
+  ac02: 431
+  ac03: 1218
+  ac04: 792
+  ac05: 278
+  ac06: 408
+  ac07: 637
+  ac08: 648
+  ac09: 361
+  ac10: 878
+  ac11: 237
   bksl: 0
   rtrn: 0
   lfsh: 0
-  ab01: 9
-  ab02: 21
-  ab03: 237
-  ab04: 209
-  ab05: 129
-  ab06: 209
-  ab07: 23
-  ab08: 59
-  ab09: 1
-  ab10: 2
+  ab01: 10
+  ab02: 1
+  ab03: 2
+  ab04: 116
+  ab05: 22
+  ab06: 104
+  ab07: 209
+  ab08: 209
+  ab09: 129
+  ab10: 11
   rtsh: 0
   lctl: 0
   lwin: 0

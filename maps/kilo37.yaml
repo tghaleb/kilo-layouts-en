@@ -1,6 +1,6 @@
 ---
-name: kilo51
-group: "English (kilo51)"
+name: kilo37
+group: "English (kilo37)"
 map:
   tlde: ["€"]
   ae01: ["1"]
@@ -21,52 +21,70 @@ map:
   - Tab
   ad01:
   - w
+  - W
   ad02:
   - v
+  - V
   ad03:
   - c
+  - C
   ad04:
   - d
+  - D
   ad05:
   - g
+  - G
   ad06:
-  - j
+  - /
   ad07:
-  - y
+  - ','
   ad08:
-  - u
+  - y
+  - Y
   ad09:
-  - q
+  - u
+  - U
   ad10:
-  - .
-  ad11:
   - ''''
+  ad11:
+  - j
+  - J
   ad12:
   - "*"
   caps:
   - "@"
   ac01:
   - r
+  - R
   ac02:
   - n
+  - N
   ac03:
   - s
+  - S
   ac04:
   - t
+  - T
   ac05:
   - l
+  - L
   ac06:
-  - h
-  ac07:
-  - e
-  ac08:
-  - a
-  ac09:
   - o
-  ac10:
+  - O
+  ac07:
+  - a
+  - A
+  ac08:
+  - e
+  - E
+  ac09:
   - i
+  - I
+  ac10:
+  - h
+  - H
   ac11:
-  - ','
+  - .
   bksl:
   - "%"
   rtrn:
@@ -74,25 +92,33 @@ map:
   lfsh:
   - ISO_Level3_Shift 
   ab01:
-  - z
+  - q
+  - Q
   ab02:
-  - x
-  ab03:
-  - m
-  ab04:
-  - p
-  ab05:
   - b
+  - B
+  ab03:
+  - p
+  - P
+  ab04:
+  - m
+  - M
+  ab05:
+  - z
+  - Z
   ab06:
   - f
+  - F
   ab07:
-  - '-'
-  ab08:
   - k
+  - K
+  ab08:
+  - '-'
   ab09:
-  - /
-  ab10:
   - ;
+  ab10:
+  - x
+  - X
   rtsh:
   - ISO_Level3_Shift 
   lctl:
@@ -133,12 +159,12 @@ heat:
   ad03: 325
   ad04: 361
   ad05: 191
-  ad06: 11
-  ad07: 168
-  ad08: 278
-  ad09: 10
-  ad10: 116
-  ad11: 22
+  ad06: 1
+  ad07: 104
+  ad08: 168
+  ad09: 278
+  ad10: 22
+  ad11: 11
   ad12: 0
   caps: 0
   ac01: 637
@@ -146,25 +172,25 @@ heat:
   ac03: 648
   ac04: 878
   ac05: 408
-  ac06: 431
-  ac07: 1218
-  ac08: 792
-  ac09: 769
-  ac10: 738
-  ac11: 104
+  ac06: 769
+  ac07: 792
+  ac08: 1218
+  ac09: 738
+  ac10: 431
+  ac11: 116
   bksl: 0
   rtrn: 0
   lfsh: 0
-  ab01: 9
-  ab02: 21
-  ab03: 237
-  ab04: 209
-  ab05: 129
+  ab01: 10
+  ab02: 129
+  ab03: 209
+  ab04: 237
+  ab05: 9
   ab06: 209
-  ab07: 23
-  ab08: 59
-  ab09: 1
-  ab10: 2
+  ab07: 59
+  ab08: 23
+  ab09: 2
+  ab10: 21
   rtsh: 0
   lctl: 0
   lwin: 0
