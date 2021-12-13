@@ -19,6 +19,7 @@ generated using [kilo](https://www.tghaleb.eu.org/kilo).
 
 ## TODO
 
+- modify some layouts slightly to be similar, without affecting score.
 - dead keys.
 - finish level3/4.
 

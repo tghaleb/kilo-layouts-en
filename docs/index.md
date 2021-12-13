@@ -253,8 +253,6 @@ some layouts don't give this a lot of weight.
 `kilo` score not very important since it depends on weights used and
 configuration values, but can be used as a rough indication,
 
-![same_finger_rp](images/layouts.db.score.svg)
-
 ## Extra features
 
 - Changes the placement of the shift keys, allowing the use of the thumbs
