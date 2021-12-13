@@ -6,32 +6,88 @@ For some background on the different factors to consider in keyboard
 layouts optimization, take a look at 
 [layout optimization philosophy](https://www.tghaleb.eu.org/kilo/#philosophy/).
 
-Two layouts: `kilo51` and `kilo45`. 
-The difference between the two is that `kilo45` has better
-combined same finger score but sacrifices some other optimizations.
-`kilo51`, on the other hand, assumes same finger
-with index/middle finger is not an issue and gives priority to optimizing 
-other factors instead, including same ring/pinkie fingers, of course. 
+There is no *best* layout. These layouts offer different advantages
+and cater to different tastes. Some people prefer the vowels on the
+right, others prefer them on the left. There is also the question of how
+important same finger is when it involves the stronger index and middle fingers
+and how much weight to assign to it.
+Here, some layouts sacrifice a little efficiency in letter placement
+to achieve better overall results. If none of these layouts
+meet your requirements you might want to download [kilo](https://www.tghaleb.eu.org/kilo) and create your own from scratch.
 
-They come in two flavors:
+The layouts come in two flavors:
 
 Basic:
-![qwerty heat](images/kilo51.svg)
-![qwerty heat](images/kilo45.svg)
+![kilo32](images/kilo32.svg)
+![kilo37](images/kilo37.svg)
+![kilo45](images/kilo45.svg)
+![kilo46](images/kilo46.svg)
+![kilo51](images/kilo51.svg)
+![kilo68](images/kilo68.svg)
+
 
 and Scientific/International:
-![qwerty heat](images/kilo51s.svg)
-![qwerty heat](images/kilo45s.svg)
+![kilo32](images/kilo32s.svg)
+![kilo37](images/kilo37s.svg)
+![kilo45](images/kilo45s.svg)
+![kilo46](images/kilo46s.svg)
+![kilo51](images/kilo51s.svg)
+![kilo68](images/kilo68s.svg)
 
-The international part of it is by using the compose key.
+The international part of it is by using the compose key and the
+level3/level4 keys are still a work in progress.
 
-And here are some stats.
+Here are some stats.
 
 ```json
+name: kilo37
+layout: wvcdg/,yu'jrnstloaeih.qbpmzfk-;x
+score: 87.31
+positional_effort: 32.89
+alternation: 70.33
+text_direction: 51.90
+same_hand:
+  jumps: 0.03
+  same_finger:
+    rp: 0.40
+    im: 4.06
+  adjacent-mrp:
+    inward: 2.52
+    outward: 0.29
+balance: 52.29
+  rows: [17.18, 73.56, 9.08]
+  fingers: [7.95, 9.59, 11.82, 22.93, 0.00, 0.00, 17.25, 14.09, 10.18, 6.01]
+    indices: 40.18
+    middles: 25.91
+    rings: 19.77
+    pinkies: 13.96
+
+name: kilo32
+layout: 'yo,kvcldpbaiehumsrtnq/j;-x.fwgz
+score: 61.64
+positional_effort: 37.44
+alternation: 70.33
+text_direction: 46.74
+same_hand:
+  jumps: 0.36
+  same_finger:
+    rp: 0.51
+    im: 2.74
+  adjacent-mrp:
+    inward: 6.57
+    outward: 1.83
+balance: 47.53
+  rows: [26.63, 65.88, 7.31]
+  fingers: [8.15, 9.17, 19.89, 10.32, 0.00, 0.00, 15.28, 11.93, 14.30, 10.78]
+    indices: 25.60
+    middles: 31.82
+    rings: 23.47
+    pinkies: 18.93
+
 name: kilo45
 layout: wqdcgjyuz,'rntslhaeoi.xbpmvfk/;-
-score: 290.03
-positional_effort: 35.36
+score: 82.91
+positional_effort: 32.34
 alternation: 70.31
 text_direction: 53.87
 same_hand:
@@ -50,10 +106,32 @@ balance: 52.41
     rings: 16.40
     pinkies: 18.09
 
+name: kilo46
+layout: ',oukgcldpvaiehymsrtnb/;z-x.fwjq
+score: 64.44
+positional_effort: 37.55
+alternation: 70.30
+text_direction: 46.64
+same_hand:
+  jumps: 0.14
+  same_finger:
+    rp: 0.49
+    im: 2.97
+  adjacent-mrp:
+    inward: 4.75
+    outward: 1.68
+balance: 47.51
+  rows: [28.35, 65.97, 5.50]
+  fingers: [8.15, 8.44, 19.96, 10.96, 0.00, 0.00, 16.10, 11.93, 12.50, 11.78]
+    indices: 27.06
+    middles: 31.89
+    rings: 20.94
+    pinkies: 19.93
+
 name: kilo51
 layout: wvcdgjyuq.'rnstlheaoi,zxmpbf-k/;
-score: 293.65
-positional_effort: 35.12
+score: 67.28
+positional_effort: 31.95
 alternation: 70.29
 text_direction: 55.51
 same_hand:
@@ -72,10 +150,32 @@ balance: 52.40
     rings: 16.31
     pinkies: 17.76
 
+name: kilo68
+layout: xzoi-wncgvkyheaulrsdtmq/;.',fpbj
+score: 86.11
+positional_effort: 40.18
+alternation: 70.23
+text_direction: 56.00
+same_hand:
+  jumps: 0.13
+  same_finger:
+    rp: 0.39
+    im: 4.41
+  adjacent-mrp:
+    inward: 3.28
+    outward: 0.12
+balance: 47.02
+  rows: [31.13, 60.56, 8.13]
+  fingers: [1.99, 4.41, 19.89, 20.73, 0.00, 0.00, 21.23, 11.82, 6.81, 12.94]
+    indices: 41.96
+    middles: 31.71
+    rings: 11.22
+    pinkies: 14.93
+
 name: QWERTY
 layout: qwertyuiop[asdfghjkl;'zxcvbnm,./
-score: 4.50
-positional_effort: 70.78
+score: 1.35
+positional_effort: 64.74
 alternation: 47.89
 text_direction: 50.49
 same_hand:
@@ -103,39 +203,55 @@ Letter placement for QWERTY (positional effort)
 
 Better placement,
 
-![kilo51 heat](images/kilo51.heat.svg)
+![kilo32 heat](images/kilo32.heat.svg)
+![kilo37 heat](images/kilo37.heat.svg)
 ![kilo45 heat](images/kilo45.heat.svg)
+![kilo46 heat](images/kilo46.heat.svg)
+![kilo51 heat](images/kilo51.heat.svg)
+![kilo68 heat](images/kilo68.heat.svg)
 
-And here is the positional effort compared
+And here is the `positional_effort` compared, it's probably acceptable 
+to sacrifice a litter efficiency here to achieve better results overall. 
 
 ![effort](images/layouts.db.positional_effort.svg)
 
-Better alternations,
+Also, note that changing he weights for keys will change the positional effort
+score anyway. Here are the weights used.
+
+![weights](images/weights.svg)
+
+Better `alternations`,
 
 ![effort](images/layouts.db.alternation.svg)
 
-Minimal jumps,
+Minimal `jumps`,
 
 ![jumps](images/layouts.db.jumps.svg)
 
-Minimal outward adjacent fingers (excluding Index finger)
+Minimal `outward` adjacent fingers (excluding Index finger)
 
 ![outward](images/layouts.db.outward.svg)
 
-Minimal Same finger (excluding Index and Middle fingers)
+Minimal `same_finger_rp` (excluding Index and Middle fingers)
 
 ![same_finger_rp](images/layouts.db.same_finger_rp.svg)
 
-Jumps, outward and same_finger_rp combined compared.
+`jumps`, `outward` and `same_finger_rp` combined compared.
 
 ![same hand](images/layouts.db.same_hand_effort.svg)
 
+`jumps`, `outward` and `same_finger_rp` combined plus `same_finger_im`, if we
+want to consider it, compared.
+
+![same hand](images/layouts.db.same_hand_effort_im.svg)
+
 Combined same finger, adds same index/middle fingers score, 
-`kilo51` doesn't give this a lot of weight, `kilo45` does.
+some layouts don't give this a lot of weight.
 
 ![same_finger_rp](images/layouts.db.same_finger_both.svg)
 
-`kilo` score,
+`kilo` score not very important since it depends on weights used and
+configuration values, but can be used as a rough indication,
 
 ![same_finger_rp](images/layouts.db.score.svg)
 
@@ -143,7 +259,7 @@ Combined same finger, adds same index/middle fingers score,
 
 - Changes the placement of the shift keys, allowing the use of the thumbs
 to shift instead of the pinkies. This is not a part of the optimization
-stats, but if you try and don't like it you can always use the regular
+stats, but if you try it and don't like it you can always use the regular
 shift keys.
 
 - Uses shift keys for level 3/4 to make it easier to use these levels.
@@ -167,4 +283,7 @@ etc. See keyboard layouts customization documentation for your distro.
 
 On other operating systems there should be tools
 to help you create customized layouts.
+
+
+
 
