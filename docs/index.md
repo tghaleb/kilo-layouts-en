@@ -20,18 +20,14 @@ The layouts come in two flavors:
 Basic:
 ![kilo32](images/kilo32.svg)
 ![kilo37](images/kilo37.svg)
-![kilo45](images/kilo45.svg)
 ![kilo46](images/kilo46.svg)
-![kilo51](images/kilo51.svg)
 ![kilo68](images/kilo68.svg)
 
 
 and Scientific/International:
 ![kilo32](images/kilo32s.svg)
 ![kilo37](images/kilo37s.svg)
-![kilo45](images/kilo45s.svg)
 ![kilo46](images/kilo46s.svg)
-![kilo51](images/kilo51s.svg)
 ![kilo68](images/kilo68s.svg)
 
 The international part of it is by using the compose key and the
@@ -84,28 +80,6 @@ balance: 47.53
     rings: 23.47
     pinkies: 18.93
 
-name: kilo45
-layout: wqdcgjyuz,'rntslhaeoi.xbpmvfk/;-
-score: 82.91
-positional_effort: 32.34
-alternation: 70.31
-text_direction: 53.87
-same_hand:
-  jumps: 0.07
-  same_finger:
-    rp: 0.46
-    im: 4.51
-  adjacent-mrp:
-    inward: 4.61
-    outward: 0.30
-balance: 52.41
-  rows: [16.27, 73.56, 9.99]
-  fingers: [8.06, 8.60, 14.48, 21.27, 0.00, 0.00, 14.61, 14.97, 7.80, 10.03]
-    indices: 35.88
-    middles: 29.45
-    rings: 16.40
-    pinkies: 18.09
-
 name: kilo46
 layout: ',oukgcldpvaiehymsrtnb/;z-x.fwjq
 score: 64.44
@@ -127,28 +101,6 @@ balance: 47.51
     middles: 31.89
     rings: 20.94
     pinkies: 19.93
-
-name: kilo51
-layout: wvcdgjyuq.'rnstlheaoi,zxmpbf-k/;
-score: 67.28
-positional_effort: 31.95
-alternation: 70.29
-text_direction: 55.51
-same_hand:
-  jumps: 0.05
-  same_finger:
-    rp: 0.50
-    im: 6.90
-  adjacent-mrp:
-    inward: 3.31
-    outward: 0.12
-balance: 52.40
-  rows: [17.39, 73.44, 8.99]
-  fingers: [7.94, 8.51, 12.10, 23.85, 0.00, 0.00, 18.51, 11.29, 7.80, 9.82]
-    indices: 42.36
-    middles: 23.39
-    rings: 16.31
-    pinkies: 17.76
 
 name: kilo68
 layout: xzoi-wncgvkyheaulrsdtmq/;.',fpbj
@@ -205,9 +157,7 @@ Better placement,
 
 ![kilo32 heat](images/kilo32.heat.svg)
 ![kilo37 heat](images/kilo37.heat.svg)
-![kilo45 heat](images/kilo45.heat.svg)
 ![kilo46 heat](images/kilo46.heat.svg)
-![kilo51 heat](images/kilo51.heat.svg)
 ![kilo68 heat](images/kilo68.heat.svg)
 
 And here is the `positional_effort` compared, it's probably acceptable 
