@@ -21,14 +21,12 @@ Basic:
 ![kilo32](images/kilo32.svg)
 ![kilo37](images/kilo37.svg)
 ![kilo46](images/kilo46.svg)
-![kilo68](images/kilo68.svg)
 
 
 and Scientific/International:
 ![kilo32](images/kilo32s.svg)
 ![kilo37](images/kilo37s.svg)
 ![kilo46](images/kilo46s.svg)
-![kilo68](images/kilo68s.svg)
 
 The international part of it is by using the compose key and the
 level3/level4 keys and are still a work in progress.
@@ -102,28 +100,6 @@ balance: 47.51
     rings: 20.94
     pinkies: 19.93
 
-name: kilo68
-layout: xzoi-wncgvkyheaulrsdtmq/;.',fpbj
-score: 86.11
-positional_effort: 40.18
-alternation: 70.23
-text_direction: 56.00
-same_hand:
-  jumps: 0.13
-  same_finger:
-    rp: 0.39
-    im: 4.41
-  adjacent-mrp:
-    inward: 3.28
-    outward: 0.12
-balance: 47.02
-  rows: [31.13, 60.56, 8.13]
-  fingers: [1.99, 4.41, 19.89, 20.73, 0.00, 0.00, 21.23, 11.82, 6.81, 12.94]
-    indices: 41.96
-    middles: 31.71
-    rings: 11.22
-    pinkies: 14.93
-
 name: QWERTY
 layout: qwertyuiop[asdfghjkl;'zxcvbnm,./
 score: 1.35
@@ -158,7 +134,6 @@ Better placement,
 ![kilo32 heat](images/kilo32.heat.svg)
 ![kilo37 heat](images/kilo37.heat.svg)
 ![kilo46 heat](images/kilo46.heat.svg)
-![kilo68 heat](images/kilo68.heat.svg)
 
 And here is the `positional_effort` compared, it's probably acceptable 
 to sacrifice a litter efficiency here to achieve better results overall. 
