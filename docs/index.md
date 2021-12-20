@@ -7,8 +7,7 @@ layouts optimization, take a look at
 [layout optimization philosophy](https://www.tghaleb.eu.org/kilo/#philosophy/).
 
 There is no *best* layout. These layouts offer different advantages
-and cater to different tastes. Some people prefer the vowels on the
-right, others prefer them on the left. There is also the question of how
+and cater to different tastes. There is also the question of how
 important same finger is when it involves the stronger index and middle fingers
 and how much weight to assign to it.
 Here, some layouts sacrifice a little efficiency in letter placement
@@ -18,15 +17,13 @@ meet your requirements you might want to download [kilo](https://www.tghaleb.eu.
 The layouts come in two flavors:
 
 Basic:
-![kilo32](images/kilo32.svg)
 ![kilo37](images/kilo37.svg)
-![kilo46](images/kilo46.svg)
+![kilo62](images/kilo62.svg)
 
 
 and Scientific/International:
-![kilo32](images/kilo32s.svg)
 ![kilo37](images/kilo37s.svg)
-![kilo46](images/kilo46s.svg)
+![kilo62](images/kilo62s.svg)
 
 The international part of it is by using the compose key and the
 level3/level4 keys and are still a work in progress.
@@ -35,74 +32,52 @@ Here are some stats.
 
 ```json
 name: kilo37
-layout: wvcdg/,yu'jrnstloaeih.qbpmzfk-;x
-score: 87.31
-positional_effort: 32.89
+layout: wvdcg.,y-kxrntsloaeih/qbpmzf';ju
+score: 92.56
+positional_effort: 34.43
 alternation: 70.33
-text_direction: 51.90
+text_direction: 50.20
 same_hand:
-  jumps: 0.03
+  jumps: 0.02
   same_finger:
-    rp: 0.40
-    im: 4.06
+    rp: 0.33
+    im: 3.68
   adjacent-mrp:
-    inward: 2.52
-    outward: 0.29
+    inward: 4.01
+    outward: 0.45
 balance: 52.29
-  rows: [17.18, 73.56, 9.08]
-  fingers: [7.95, 9.59, 11.82, 22.93, 0.00, 0.00, 17.25, 14.09, 10.18, 6.01]
-    indices: 40.18
-    middles: 25.91
-    rings: 19.77
-    pinkies: 13.96
+  rows: [16.25, 72.41, 11.16]
+  fingers: [7.95, 9.59, 14.48, 20.27, 0.00, 0.00, 18.03, 13.88, 7.72, 7.90]
+    indices: 38.30
+    middles: 28.36
+    rings: 17.31
+    pinkies: 15.85
 
-name: kilo32
-layout: 'yo,kvcldpbaiehumsrtnq/j;-x.fwgz
-score: 61.64
-positional_effort: 37.44
-alternation: 70.33
-text_direction: 46.74
+name: kilo62
+layout: wvdfgq,uy.jrntsloaeih'kbpczmx-;/
+score: 89.79
+positional_effort: 32.95
+alternation: 70.26
+text_direction: 50.05
 same_hand:
-  jumps: 0.36
+  jumps: 0.02
   same_finger:
-    rp: 0.51
-    im: 2.74
+    rp: 0.44
+    im: 3.65
   adjacent-mrp:
-    inward: 6.57
-    outward: 1.83
-balance: 47.53
-  rows: [26.63, 65.88, 7.31]
-  fingers: [8.15, 9.17, 19.89, 10.32, 0.00, 0.00, 15.28, 11.93, 14.30, 10.78]
-    indices: 25.60
-    middles: 31.82
-    rings: 23.47
-    pinkies: 18.93
-
-name: kilo46
-layout: ',oukgcldpvaiehymsrtnb/;z-x.fwjq
-score: 64.44
-positional_effort: 37.55
-alternation: 70.30
-text_direction: 46.64
-same_hand:
-  jumps: 0.14
-  same_finger:
-    rp: 0.49
-    im: 2.97
-  adjacent-mrp:
-    inward: 4.75
-    outward: 1.68
-balance: 47.51
-  rows: [28.35, 65.97, 5.50]
-  fingers: [8.15, 8.44, 19.96, 10.96, 0.00, 0.00, 16.10, 11.93, 12.50, 11.78]
-    indices: 27.06
-    middles: 31.89
-    rings: 20.94
-    pinkies: 19.93
+    inward: 3.95
+    outward: 0.67
+balance: 52.78
+  rows: [17.05, 72.62, 10.15]
+  fingers: [8.44, 9.59, 14.48, 20.27, 0.00, 0.00, 16.96, 15.19, 9.08, 5.81]
+    indices: 37.23
+    middles: 29.67
+    rings: 18.67
+    pinkies: 14.25
 
 name: QWERTY
 layout: qwertyuiop[asdfghjkl;'zxcvbnm,./
-score: 1.35
+score: 0.52
 positional_effort: 64.74
 alternation: 47.89
 text_direction: 50.49
@@ -131,16 +106,15 @@ Letter placement for QWERTY (positional effort)
 
 Better placement,
 
-![kilo32 heat](images/kilo32.heat.svg)
 ![kilo37 heat](images/kilo37.heat.svg)
-![kilo46 heat](images/kilo46.heat.svg)
+![kilo62 heat](images/kilo62.heat.svg)
 
 And here is the `positional_effort` compared, it's probably acceptable 
-to sacrifice a litter efficiency here to achieve better results overall. 
+to sacrifice a little efficiency here to achieve better results overall. 
 
 ![effort](images/layouts.db.positional_effort.svg)
 
-Also, note that changing he weights for keys will change the positional effort
+Also, note that changing the weights for keys will change the `positional effort`
 score anyway. Here are the weights used.
 
 ![weights](images/weights.svg)
@@ -161,22 +135,18 @@ Minimal `same_finger_rp` (excluding Index and Middle fingers)
 
 ![same_finger_rp](images/layouts.db.same_finger_rp.svg)
 
-`jumps`, `outward` and `same_finger_rp` combined compared.
+combined `jumps`, `same_finger_rp` and `same_finger_im`,
 
-![same hand](images/layouts.db.same_hand_effort.svg)
+![same finger jumps](images/layouts.db.same_finger_both__jumps.svg)
 
-`jumps`, `outward` and `same_finger_rp` combined plus `same_finger_im`, if we
-want to consider it, compared.
+combined `jumps`, `outward`, `same_finger_rp` and `same_finger_im`,
 
-![same hand](images/layouts.db.same_hand_effort_im.svg)
+![same finger jumps outward](images/layouts.db.same_finger_both__jumps__outward.svg)
 
-Combined same finger, adds same index/middle fingers score, 
-some layouts don't give this a lot of weight.
-
-![same_finger_rp](images/layouts.db.same_finger_both.svg)
-
-`kilo` score not very important since it depends on weights used and
+`kilo` score is not very important since it depends on weights used and
 configuration values, but can be used as a rough indication,
+
+![score](images/layouts.db.score.svg)
 
 ## Extra features
 
@@ -189,7 +159,6 @@ shift keys.
 - Hijacks caps key.
 
 ## Installation
-
 
 This assumes you are using `Linux`. If you plan on customizing you'll need to install
 [kilo](https://www.tghaleb.eu.org/kilo) and read it's documentation.
@@ -210,4 +179,5 @@ etc. See keyboard layouts customization documentation for your distro.
 
 On other operating systems there should be tools
 to help you create customized layouts.
+
 
