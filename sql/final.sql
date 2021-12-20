@@ -1,19 +1,19 @@
 SELECT * FROM layouts
 WHERE
-(jumps < 100) and
-(outward < 100) and
-(same_finger_rp < 100) and
+(jumps < 10) and
+(outward < 90) and
+(same_finger_rp < 70) and
+(same_finger_im < 400) and
 ((fingers0 + fingers9) < 2000) and
 ((fingers1 + fingers8) < 2600) and
 ((fingers3 + fingers6) < 4200)
 ORDER BY
-outward + jumps + same_finger_rp DESC,
-outward,
+jumps + same_finger_rp + same_finger_im,
 same_finger_rp,
-effort DESC,
+outward,
+positional_effort,
 alternation DESC,
 score DESC,
-text_direction DESC,
-(fingers0 + fingers9),
+(fingers0 + fingers9)
 ;
 
