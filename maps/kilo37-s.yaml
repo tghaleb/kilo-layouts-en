@@ -26,29 +26,29 @@ map:
   - v
   - V
   ad03:
-  - c
-  - C
-  ad04:
   - d
   - D
+  ad04:
+  - c
+  - C
   ad05:
   - g
   - G
   ad06:
-  - /
+  - .
   ad07:
   - ','
   ad08:
   - y
   - Y
   ad09:
-  - u
-  - U
+  - '-'
   ad10:
-  - ''''
+  - k
+  - K
   ad11:
-  - j
-  - J
+  - x
+  - X
   ad12:
   - "*"
   caps:
@@ -60,11 +60,11 @@ map:
   - n
   - N
   ac03:
-  - s
-  - S
-  ac04:
   - t
   - T
+  ac04:
+  - s
+  - S
   ac05:
   - l
   - L
@@ -84,7 +84,7 @@ map:
   - h
   - H
   ac11:
-  - .
+  - /
   bksl:
   - "%"
   rtrn:
@@ -110,15 +110,15 @@ map:
   - f
   - F
   ab07:
-  - k
-  - K
+  - ''''
   ab08:
-  - '-'
-  ab09:
   - ;
+  ab09:
+  - j
+  - J
   ab10:
-  - x
-  - X
+  - u
+  - U
   rtsh:
   - ISO_Level3_Shift 
   lctl:
@@ -156,28 +156,28 @@ heat:
   tab: 0
   ad01: 148
   ad02: 109
-  ad03: 325
-  ad04: 361
+  ad03: 361
+  ad04: 325
   ad05: 191
-  ad06: 1
+  ad06: 116
   ad07: 104
   ad08: 168
-  ad09: 278
-  ad10: 22
-  ad11: 11
+  ad09: 23
+  ad10: 59
+  ad11: 21
   ad12: 0
   caps: 0
   ac01: 637
   ac02: 721
-  ac03: 648
-  ac04: 878
+  ac03: 878
+  ac04: 648
   ac05: 408
   ac06: 769
   ac07: 792
   ac08: 1218
   ac09: 738
   ac10: 431
-  ac11: 116
+  ac11: 1
   bksl: 0
   rtrn: 0
   lfsh: 0
@@ -187,10 +187,10 @@ heat:
   ab04: 237
   ab05: 9
   ab06: 209
-  ab07: 59
-  ab08: 23
-  ab09: 2
-  ab10: 21
+  ab07: 22
+  ab08: 2
+  ab09: 11
+  ab10: 278
   rtsh: 0
   lctl: 0
   lwin: 0
