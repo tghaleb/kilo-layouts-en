@@ -10,7 +10,7 @@ generated using [kilo](https://www.tghaleb.eu.org/kilo).
 
 ## Documentation
 
-<https://tghaleb.eu.org/kilo-layouts-en>
+<https://www.tghaleb.eu.org/kilo-layouts-en>
 
 ## TODO
 
